@@ -1,0 +1,191 @@
+{
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "black",
+          "slug": "black",
+          "color": "#13191e"
+        },
+        {
+          "name": "gold",
+          "slug": "gold",
+          "color": "#d8a45f"
+        },
+        {
+          "name": "Dark Gold",
+          "slug": "dark-gold",
+          "color": "#7a4909"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Cream",
+          "slug": "cream",
+          "color": "#eae3da"
+        },
+        {
+          "name": "Light Gold",
+          "slug": "light-gold",
+          "color": "#dfc39e"
+        },
+        {
+          "name": "Light Gray",
+          "slug": "light-gray",
+          "color": "#f4f7f9"
+        },
+        {
+          "name": "Slate",
+          "slug": "slate",
+          "color": "#a8abad"
+        },
+        {
+          "name": "Charcoal",
+          "slug": "charcoal",
+          "color": "#363b40"
+        },
+        {
+          "name": "Warning",
+          "slug": "warning",
+          "color": "#ea7000"
+        },
+        {
+          "name": "Success",
+          "slug": "success",
+          "color": "#3a590e"
+        },
+        {
+          "name": "Info",
+          "slug": "info",
+          "color": "#2b44b6"
+        },
+        {
+          "name": "Focus Light",
+          "slug": "focus-light",
+          "color": "#96a7f3"
+        },
+        {
+          "name": "Error",
+          "slug": "error",
+          "color": "#902d30"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "704px",
+      "wideSize": "1320px"
+    },
+    "spacing": {
+      "spacingSizes": [
+        {
+          "size": "clamp(0.75rem, calc(0.75rem + (1vw - 6.4000px) * 0.0000), 0.75rem)",
+          "slug": "tiny",
+          "name": "tiny"
+        },
+        {
+          "size": "clamp(1rem, calc(1rem + (1vw - 6.4000px) * 0.0000), 1rem)",
+          "slug": "x-small",
+          "name": "x-small"
+        },
+        {
+          "size": "clamp(1.25rem, calc(1.25rem + (1vw - 6.4000px) * 0.5000), 1.5rem)",
+          "slug": "small",
+          "name": "small"
+        },
+        {
+          "size": "clamp(1.5rem, calc(1.5rem + (1vw - 6.4000px) * 1.0000), 2rem)",
+          "slug": "regular",
+          "name": "regular"
+        },
+        {
+          "size": "clamp(2.25rem, calc(2.25rem + (1vw - 6.4000px) * 1.5000), 3rem)",
+          "slug": "large",
+          "name": "large"
+        },
+        {
+          "size": "clamp(4rem, calc(4rem + (1vw - 6.4000px) * 2.0000), 5rem)",
+          "slug": "x-large",
+          "name": "x-large"
+        },
+        {
+          "size": "clamp(5rem, calc(5rem + (1vw - 6.4000px) * 5.0000), 7.5rem)",
+          "slug": "xx-large",
+          "name": "xx-large"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "X-Small",
+          "size": "clamp(0.75rem, calc(0.75rem + (1vw - 6.4000px) * 0.0000), 0.75rem)",
+          "slug": "x-small"
+        },
+        {
+          "name": "Small",
+          "size": "clamp(0.875rem, calc(0.875rem + (1vw - 6.4000px) * 0.0000), 0.875rem)",
+          "slug": "small"
+        },
+        {
+          "name": "Regular",
+          "size": "clamp(1rem, calc(1rem + (1vw - 6.4000px) * 0.1250), 1.0625rem)",
+          "slug": "regular"
+        }
+      ]
+    },
+    "custom": {
+      "--wpvip-border-radius": "clamp(0.5rem, calc(0.5rem + (1vw - 6.4000px) * 0.5000), 0.75rem)",
+      "--wpvip-lead-font-size": "clamp(2.5rem, calc(2.5rem + (1vw - 6.4000px) * 4.0000), 4.5rem)",
+      "--wpvip-lead-letter-spacing": "clamp(-0.125rem, calc(-0.125rem + (1vw - 6.4000px) * -0.2500), -0.25rem)"
+    }
+  },
+  "styles": {
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2.375rem, calc(2.375rem + (1vw - 6.4000px) * 2.5000), 3.625rem)",
+          "letterSpacing": "clamp(-0.0625rem, calc(-0.0625rem + (1vw - 6.4000px) * -0.2500), -0.1875rem)",
+          "lineHeight": "clamp(2.5rem, calc(2.5rem + (1vw - 6.4000px) * 2.5000), 3.75rem)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(1.75rem, calc(1.75rem + (1vw - 6.4000px) * 1.2500), 2.375rem)",
+          "letterSpacing": "clamp(0rem, calc(0rem + (1vw - 6.4000px) * -0.1250), -0.0625rem)",
+          "lineHeight": "clamp(2.25rem, calc(2.25rem + (1vw - 6.4000px) * 1.0000), 2.75rem)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "clamp(1.5rem, calc(1.5rem + (1vw - 6.4000px) * 0.2500), 1.625rem)",
+          "letterSpacing": "clamp(0rem, calc(0rem + (1vw - 6.4000px) * -0.1250), -0.0625rem)",
+          "lineHeight": "clamp(2.125rem, calc(2.125rem + (1vw - 6.4000px) * -0.5000), 1.875rem)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "clamp(1.125rem, calc(1.125rem + (1vw - 6.4000px) * 0.5000), 1.375rem)",
+          "letterSpacing": "clamp(0rem, calc(0rem + (1vw - 6.4000px) * -0.1250), -0.0625rem)",
+          "lineHeight": "clamp(1.625rem, calc(1.625rem + (1vw - 6.4000px) * 0.7500), 2rem)"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "clamp(1.125rem, calc(1.125rem + (1vw - 6.4000px) * 0.5000), 1.375rem)",
+          "letterSpacing": "initial",
+          "lineHeight": "clamp(1.6875rem, calc(1.6875rem + (1vw - 6.4000px) * 0.3750), 1.875rem)"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "clamp(1rem, calc(1rem + (1vw - 6.4000px) * 0.1250), 1.0625rem)",
+          "letterSpacing": "initial",
+          "lineHeight": "clamp(1.375rem, calc(1.375rem + (1vw - 6.4000px) * 0.2500), 1.5rem)"
+        }
+      }
+    }
+  }
+}
