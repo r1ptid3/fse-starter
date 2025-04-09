@@ -1,0 +1,43 @@
+# Dependencies
+## Avoid any node_modules folders anywhere in the repo; see see https://docs.wpvip.com/how-tos/manage-dependencies/#version-management
+node_modules
+
+# Uploads directory
+/uploads/
+/themes/wpvip-marketing/assets/img/temp
+
+# Built directories
+/themes/wpvip-marketing/dist/
+/themes/wpvip-marketing/blocks/build/
+/themes/twentytwentyfive/
+/images/
+
+# Ignore env variables
+client-mu-plugins/*.local.php
+
+# Leftover core/plugin upgrade files
+/upgrade/
+
+# mu-plugins; these are managed at the platform-level
+/mu-plugins/
+
+# drop-ins; these are managed at the platform-level
+/object-cache.php
+/db.php
+
+# Ignore temporary OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.idea
+.idea/
+.idea/php.xml
+.vscode-test
+
+# Composer (repo root only)
+/vendor/

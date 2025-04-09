@@ -1,0 +1,34 @@
+{
+  "name": "wpvip-marketing",
+  "version": "1.0.0",
+  "description": "WPVIP Marketing theme based on Gutenberg and FSE",
+  "license": "GPL-2.0",
+  "scripts": {
+    "build": "wp-scripts build --webpack-copy-php --source-path=blocks/src/ --output-path=blocks/build/",
+    "start": "wp-scripts start --webpack-copy-php --source-path=blocks/src/ --output-path=blocks/build/",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "js-lint": "eslint",
+    "js-fix": "eslint --fix",
+    "packages-update": "wp-scripts packages-update",
+    "generate-dynamic-json": "node wpvip-theme-json/theme-json-generator.js",
+    "merge-theme-json": "node wpvip-theme-json/merge-theme-json.js",
+    "generate-theme-json": "npm run generate-dynamic-json && npm run merge-theme-json"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.14.1",
+    "classnames": "^2.5.1",
+    "use-debounce": "^10.0.4",
+    "sass": "^1.86.3",
+    "sass-loader": "^16.0.5",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "glob": "^11.0.1"
+  },
+  "browserslist": [
+    "last 5 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
