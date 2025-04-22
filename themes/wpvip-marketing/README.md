@@ -9,7 +9,7 @@ WPVIP Marketing 1.0.0
 ##### Table of Contents:
 
 *   [Prerequisites](#prerequisites)
-*   [Gulp](#gulp)
+*   [Webpack](#webpack)
 *   [INC](#inc)
 *   [Images](#images)
 *   [CSS](#css)
@@ -26,7 +26,7 @@ Required plugins:
 
 * SVG Support / Safe SVG.
 
-## Gulp
+## Webpack
 
 Recommended setup:
 
@@ -35,10 +35,12 @@ Recommended setup:
 
 Available commands:
 
-*   `gulp` : runs gulp watcher in Development mode.
-*   `gulp watch` : start BrowserSync with gulp watcher in Development mode.
-*   `gulp build-dev` : replace files in `dist` folder, compile assets for development purposes without running watcher. Created especially for non-production environments.
-*   `gulp build` : re-create `dist` folder, compile assets for Production (optimized and minified).
+*   `npm run build` : Build gutenberg blocks and custom website assets for production purpose.
+*   `npm run build-dev` : Build gutenberg blocks and custom website assets for development / debugging purpose, with source maps and mot minified files.
+*   `npm run start` : Starting to watch and compiling gutenberg blocks on any file change inside blocks/src folder.
+*   `npm run build:assets` : Build custom website assets for production purpose, it will be automatically called during `npm run build`.
+*   `npm run watch:assets` : Starting to watch and compiling custom website assets on any file change inside assets folder. Files will be compiled for development / debugging purpose.
+* TODO: Test and describe `format`, `lint:css`, `lint:js`, `js-lint`, `js-fix`, `packages-update` commands. Make sure that they are working for custom website assets.
 
 ## INC
 
